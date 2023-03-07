@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>contact</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" />
+    <style>
+      
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      #contact {
+        width: 40%;
+      }
+    </style>
+  </head>
+  <header>
+  
+      <div>
+          <p style="text-align:center;"> <img src="assets/crown.jpg" alt="crown" class="logo" width="100" />
+      </div>
+      <div class="Headers">
+        <div>
+          <ul>
+              <li><img src="assets/crown.jpg" alt="crown" class="logo" width="100" /></li>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./family.html">The Royal Family</a></li>
+              <li><a href="./royalassets.html">Royal Assets</a></li>
+              <li><a href="./form.html">Apply here to serve</a></l>
+              <li><a href="./contact.html">Contact Us</a></l>
+        </ul>
+      </div>
+    </header>
+
+  <body>
+    <form id="contact">
+      Contact the Royal Family
+      <label for="name"> Name: </label>
+      <input type="text" id="name" placeholder="Please type your name" />
+      <label for="e-mail"> e-mail: </label>
+      <input type="text" id="lastname" placeholder="type your email" />
+      <label for="message"> message: </label>
+      <input type="text" id="message" placeholder="write your message" />
+      <div>
+        <input type="checkbox" name="click" id="middlename" /> I am a citizen of
+        the Empire
+        <br />
+      </div>
+      <input type="submit" value="Submit" /> <br />
+    </form>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+.blue-text {
+  color: blue;
+}
+p {
+  color: white;
+  font-family: Courier New;
+  font-weight: bold;
+}
+section {
+  color: purple;
+}
+body {
+  background-color: slategray;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#welcome {
+  height: 400px;
+  background-image: url("assets/kingdom.jpg");
+  background-size: cover;
+}
+.flex-container {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+.headers {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  list-style-type: none;
+  background: #2de4c5;
+  display: flex;
+  justify-content: space-around;
+  padding: 12px;
+}
+
+#tableA,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th,
+td {
+  background-color: #96d4d4;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
